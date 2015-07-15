@@ -305,7 +305,7 @@ $tiniest: new-breakpoint(max-width 390px);
 				color: $dark-gray;
 				text-decoration: none;
 				padding: 1em 2em;
-				&:hover {
+				&:hover, &:focus {
 					background-color: $medium-blue;
 					color: white;
 				}
